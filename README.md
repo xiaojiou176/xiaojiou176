@@ -4,7 +4,7 @@
 
 <h1 align="center">Terry Yu</h1>
 
-<p align="center"><strong>Building local-first AI systems for browser automation, traceable research, and operator-grade workflows.</strong></p>
+<p align="center"><strong>Building AI tools for browser workflows, source-grounded research, and operator-facing software.</strong></p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176-open"><img alt="Open Source Portfolio" src="https://img.shields.io/badge/open%20source%20portfolio-13%20repos-111827?style=for-the-badge"></a>
@@ -21,38 +21,36 @@
   <a href="#how-i-like-to-build"><strong>Build philosophy</strong></a>
 </p>
 
-I build systems for people who do not want AI and automation to feel like sealed black boxes. The thread running through my public work is simple: keep operators close to state, preserve the evidence trail, and make recovery paths obvious when something goes wrong.
+I build products that do concrete work: run browser workflows, generate frontend files from UI briefs, turn noisy source streams into reusable digests, and export research into inspectable markdown. What ties the portfolio together is not a slogan. It is a practical bias toward tools that are easier to run, review, and recover when something breaks.
 
 - CS @ University of Washington '27
 - AI Engineer at Casium
 - Based in Seattle
 
-## Portfolio thesis
+## What I actually build
 
-The work on this page is not a random repo pile. It is one connected portfolio built around a single idea:
+The work on this page is not a random repo pile. It is one connected portfolio with a few recurring job types:
 
-> AI systems become more useful when they are local-first, operator-visible, and grounded in evidence instead of vibes.
-
-That thesis currently shows up in four recurring tracks:
+Instead of talking only in abstract principles, the easiest way to read this portfolio is by the work it helps someone do:
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>AI orchestration and control planes</strong><br>
+      <strong>Run and supervise AI workflows</strong><br>
       Control planes, governed task execution, replayable runs, and operator visibility.
     </td>
     <td width="50%" valign="top">
-      <strong>Auditable browser workflows</strong><br>
+      <strong>Run browser automation without going blind</strong><br>
       Repeatable automation, inspectable evidence, release-ready quality gates, and proof-first tooling.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong>Traceable research systems</strong><br>
+      <strong>Turn raw sources into reusable knowledge</strong><br>
       Source-grounded writing, searchable corpora, and audit-friendly knowledge flows.
     </td>
     <td width="50%" valign="top">
-      <strong>Local-first utilities</strong><br>
+      <strong>Build user-facing tools with clear ownership</strong><br>
       Products that keep users close to their own data, current state, and recovery path.
     </td>
   </tr>
@@ -60,38 +58,47 @@ That thesis currently shows up in four recurring tracks:
 
 ## Start here
 
-These are the six projects I would want a first-time visitor to see early, because together they tell the most complete story:
+These are the six projects I would point a first-time visitor to, because together they show the clearest range of what I actually ship:
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
-      Governed AI task orchestration with evidence, replay, and operator visibility.
+      Run governed AI tasks, inspect evidence bundles, and replay failures without guesswork.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a></strong><br>
-      The control-plane view of browser automation, proof, and release-ready quality gates.
+      Run browser workflows, review proof, and decide whether a result is ready to ship.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a></strong><br>
-      Production-minded UI generation and verification from natural-language briefs.
+      Turn UI briefs into React and shadcn files you can preview and verify.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a></strong><br>
-      A knowledge pipeline for turning noisy sources into operator-ready context.
+      Subscribe to source streams and turn them into digests, job traces, and searchable artifacts.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a></strong><br>
-      A more product-facing look at local-first AI interfaces in the browser.
+      Compare major AI tools side by side in one browser surface.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/provenote">provenote</a></strong><br>
-      Source-grounded writing, searchable research, and auditable markdown output.
+      Import one source, search it, and export auditable markdown you can inspect later.
     </td>
   </tr>
 </table>
+
+## What a visitor can do from here
+
+If you are here to evaluate the work quickly:
+
+- use the pinned repos as the fast path to the strongest public projects
+- use the org page as the full atlas of all 13 open-source repos
+- treat each repo README as a front door that should tell you the fastest honest first result
+- expect practical entrypoints, not just architectural philosophy
 
 ## Open-source portfolio map
 
@@ -143,15 +150,15 @@ All **13 public repositories** in [xiaojiou176-open](https://github.com/xiaojiou
   </tr>
 </table>
 
-## What makes the portfolio feel coherent
+## What ties the portfolio together
 
-Even when the repos look different on the surface, the same design choices keep showing up:
+Even when the repos look different on the surface, the same practical preferences keep showing up:
 
 - visible state over hidden magic
-- reviewable evidence over uninspectable claims
-- recovery paths over brittle one-shot automation
-- hosted-first public collaboration over invisible personal infrastructure
-- products that can be demoed, audited, and actually operated by humans
+- reviewable outputs over “trust me” demos
+- recovery paths over brittle one-shot flows
+- practical front doors over repo archaeology
+- software that can be run, inspected, and explained by another human
 
 ## How I like to build
 
