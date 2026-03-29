@@ -17,8 +17,8 @@
   <a href="https://github.com/xiaojiou176-open"><strong>Open portfolio</strong></a> •
   <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><strong>LinkedIn</strong></a> •
   <a href="#start-here"><strong>Start here</strong></a> •
-  <a href="#open-source-portfolio-map"><strong>Portfolio map</strong></a> •
-  <a href="#how-i-like-to-build"><strong>Build philosophy</strong></a>
+  <a href="#-open-source-portfolio-map"><strong>Portfolio map</strong></a> •
+  <a href="#-technical-spine"><strong>Technical spine</strong></a>
 </p>
 
 I build products that do concrete work: run browser workflows, generate frontend files from UI briefs, turn noisy source streams into reusable digests, and export research into inspectable markdown. What ties the portfolio together is not a slogan. It is a practical bias toward tools that are easier to run, review, and recover when something breaks.
@@ -27,7 +27,7 @@ I build products that do concrete work: run browser workflows, generate frontend
 - AI Engineer at Casium
 - Based in Seattle
 
-## What I actually build
+## 🎯 What I actually build
 
 The work on this page is not a random repo pile. It is one connected portfolio with a few recurring job types:
 
@@ -56,7 +56,7 @@ Instead of talking only in abstract principles, the easiest way to read this por
   </tr>
 </table>
 
-## Start here
+## 🚀 Start here
 
 These are the six projects I would point a first-time visitor to, because together they show the clearest range of what I actually ship:
 
@@ -91,7 +91,7 @@ These are the six projects I would point a first-time visitor to, because togeth
   </tr>
 </table>
 
-## What a visitor can do from here
+## 👀 What a visitor can do from here
 
 If you are here to evaluate the work quickly:
 
@@ -100,57 +100,63 @@ If you are here to evaluate the work quickly:
 - treat each repo README as a front door that should tell you the fastest honest first result
 - expect practical entrypoints, not just architectural philosophy
 
-## Open-source portfolio map
+## 🗺️ Open-source portfolio map
 
-All **13 public repositories** in [xiaojiou176-open](https://github.com/xiaojiou176-open), grouped by what they are trying to do:
+All **13 public repositories** in [xiaojiou176-open](https://github.com/xiaojiou176-open), grouped by the actual jobs they help a user do:
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Orchestration and control planes</strong><br><br>
-      <a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a><br>
-      Governed AI task orchestration with evidence, replay, and operator visibility.<br><br>
-      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a><br>
-      Browser automation control plane for repeatable proof and release-ready quality gates.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Auditable browser workflows</strong><br><br>
-      <a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a><br>
-      Auditable browser automation for repeatable runs and recovery-ready workflows.<br><br>
-      <a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a><br>
-      Local-first browser extension for side-by-side AI comparison in the browser.<br><br>
-      <a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a><br>
-      Local-first academic organizer for Canvas, Gradescope, EdStem, and MyUW.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Research and knowledge systems</strong><br><br>
-      <a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a><br>
-      Turn YouTube, Bilibili, and RSS into traceable digests and searchable knowledge flows.<br><br>
-      <a href="https://github.com/xiaojiou176-open/provenote">provenote</a><br>
-      Source-grounded writing, searchable sources, auditable markdown, and traceable outputs.<br><br>
-      <a href="https://github.com/xiaojiou176-open/docsiphon">docsiphon</a><br>
-      Convert docsites into AI-ready local corpora with preserved paths and audit artifacts.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Product-facing AI tools</strong><br><br>
-      <a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a><br>
-      Generate, apply, and verify production-ready React and shadcn UI from natural-language briefs.<br><br>
-      <a href="https://github.com/xiaojiou176-open/dealwatch">dealwatch</a><br>
-      Cross-store grocery price tracking with compare preview, watch tasks, and alert history.<br><br>
-      <strong>Local-first macOS and recovery tools</strong><br><br>
-      <a href="https://github.com/xiaojiou176-open/apple-notes-snapshot">apple-notes-snapshot</a><br>
-      Local-first Apple Notes backup control room for macOS.<br><br>
-      <a href="https://github.com/xiaojiou176-open/apple-notes-forensics">apple-notes-forensics</a><br>
-      Copy-first Apple Notes recovery toolkit with reviewable outputs.<br><br>
-      <a href="https://github.com/xiaojiou176-open/movi-organizer">movi-organizer</a><br>
-      Local-first AI-assisted media organizer built around manifest-driven workflows.
-    </td>
-  </tr>
-</table>
+### 🧠 Run and supervise AI workflows
 
-## What ties the portfolio together
+- [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public)
+  Governed AI task orchestration for running work, reviewing evidence, and replaying failures without guesswork.
+- [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane)
+  Browser automation control plane for running flows, reviewing proof, and shipping with governed quality gates.
+
+### 🧪 Run browser workflows without going blind
+
+- [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
+  Run one workflow, inspect one evidence bundle, and recover with facts instead of guesswork.
+- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel)
+  Compare major AI tools side by side in one browser surface.
+- [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot)
+  Organize Canvas, Gradescope, EdStem, and MyUW workflows in one local-first tool.
+
+### 📚 Turn raw sources into reusable knowledge
+
+- [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor)
+  Subscribe to source streams and turn them into digests, job traces, and searchable artifacts.
+- [provenote](https://github.com/xiaojiou176-open/provenote)
+  Import one source, search it, and export auditable markdown you can inspect later.
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
+  Turn docsites into local corpora that agents and operators can actually reuse.
+
+### 🎨 Build user-facing AI tools
+
+- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio)
+  Turn UI briefs into React and shadcn files you can preview and verify.
+- [dealwatch](https://github.com/xiaojiou176-open/dealwatch)
+  Track grocery prices across stores with compare views, watch tasks, and alert history.
+
+### 🧰 Keep local data and recovery paths in your own hands
+
+- [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot)
+  Back up Apple Notes with path-aware exports and visible health checks.
+- [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics)
+  Recover Apple Notes data with a copy-first, reviewable toolkit.
+- [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer)
+  Organize media with manifest-driven workflows and reviewable automation.
+
+## 🛠️ Technical spine
+
+The technical spine is stronger than the page may first suggest. The flagship repos are not thin wrappers around one model or one API call. They repeatedly combine:
+
+- `FastAPI` and Python orchestration backends
+- `Next.js`, React, and TypeScript operator or product surfaces
+- `Playwright`-based browser execution and proof paths
+- `MCP` interfaces so the same systems can serve both humans and agents
+- run manifests, evidence bundles, diagnostics indexes, and replay-oriented artifacts
+- hosted-first public CI plus explicit manual boundaries for live or sensitive paths
+
+## 🧭 What ties the portfolio together
 
 Even when the repos look different on the surface, the same practical preferences keep showing up:
 
@@ -160,7 +166,7 @@ Even when the repos look different on the surface, the same practical preference
 - practical front doors over repo archaeology
 - software that can be run, inspected, and explained by another human
 
-## How I like to build
+## 🧱 How I like to build
 
 - Local-first when it improves trust, recovery, and user control
 - Evidence-first when a system makes claims about what happened
