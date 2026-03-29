@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Terry Yu profile hero" width="100%">
+</p>
+
 <h1 align="center">Terry Yu</h1>
 
 <p align="center"><strong>Building local-first AI systems for browser automation, traceable research, and operator-grade workflows.</strong></p>
@@ -9,7 +13,15 @@
   <img alt="Seattle" src="https://img.shields.io/badge/Seattle-WA-7c3aed?style=for-the-badge">
 </p>
 
-I care about turning opaque AI and automation work into systems that are inspectable, auditable, and actually operable by humans. I like products with visible state, evidence trails, replayability, and a clear recovery path instead of demo-only magic.
+<p align="center">
+  <a href="https://github.com/xiaojiou176-open"><strong>Open portfolio</strong></a> •
+  <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><strong>LinkedIn</strong></a> •
+  <a href="#start-here"><strong>Start here</strong></a> •
+  <a href="#open-source-portfolio-map"><strong>Portfolio map</strong></a> •
+  <a href="#how-i-like-to-build"><strong>Build philosophy</strong></a>
+</p>
+
+I build systems for people who do not want AI and automation to feel like sealed black boxes. The thread running through my public work is simple: keep operators close to state, preserve the evidence trail, and make recovery paths obvious when something goes wrong.
 
 - CS @ University of Washington '27
 - AI Engineer at Casium
@@ -23,67 +35,123 @@ The work on this page is not a random repo pile. It is one connected portfolio b
 
 That thesis currently shows up in four recurring tracks:
 
-| Track | What I build |
-| --- | --- |
-| AI orchestration | Control planes, governed task execution, replayable runs, and operator visibility |
-| Browser automation | Repeatable workflows, inspectable evidence, release-ready quality gates, and proof-oriented tooling |
-| Traceable research | Source-grounded writing, searchable corpora, and audit-friendly knowledge flows |
-| Local-first utilities | Products that keep users close to their own data, state, and recovery path |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>AI orchestration and control planes</strong><br>
+      Control planes, governed task execution, replayable runs, and operator visibility.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Auditable browser workflows</strong><br>
+      Repeatable automation, inspectable evidence, release-ready quality gates, and proof-first tooling.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Traceable research systems</strong><br>
+      Source-grounded writing, searchable corpora, and audit-friendly knowledge flows.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Local-first utilities</strong><br>
+      Products that keep users close to their own data, current state, and recovery path.
+    </td>
+  </tr>
+</table>
 
 ## Start here
 
-If you only look at six projects, start with these:
+These are the six projects I would want a first-time visitor to see early, because together they tell the most complete story:
 
-| Repo | Why it matters |
-| --- | --- |
-| [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | The clearest entry point into my orchestration, governance, and operator-visibility direction |
-| [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) | The control-plane view of browser automation, proof, and release-ready quality gates |
-| [prooftrail](https://github.com/xiaojiou176-open/prooftrail) | Inspectable browser automation with repeatability, recovery, and evidence built in |
-| [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor) | A knowledge pipeline for turning noisy source streams into usable operator context |
-| [provenote](https://github.com/xiaojiou176-open/provenote) | Traceable writing and research output built around searchable sources and auditable markdown |
-| [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) | AI-assisted UI generation with verification and production-minded workflow guardrails |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
+      Governed AI task orchestration with evidence, replay, and operator visibility.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a></strong><br>
+      The control-plane view of browser automation, proof, and release-ready quality gates.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a></strong><br>
+      Production-minded UI generation and verification from natural-language briefs.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a></strong><br>
+      A knowledge pipeline for turning noisy sources into operator-ready context.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a></strong><br>
+      A more product-facing look at local-first AI interfaces in the browser.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/provenote">provenote</a></strong><br>
+      Source-grounded writing, searchable research, and auditable markdown output.
+    </td>
+  </tr>
+</table>
 
 ## Open-source portfolio map
 
 All **13 public repositories** in [xiaojiou176-open](https://github.com/xiaojiou176-open), grouped by what they are trying to do:
 
-### Orchestration and control planes
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Orchestration and control planes</strong><br><br>
+      <a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a><br>
+      Governed AI task orchestration with evidence, replay, and operator visibility.<br><br>
+      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a><br>
+      Browser automation control plane for repeatable proof and release-ready quality gates.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Auditable browser workflows</strong><br><br>
+      <a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a><br>
+      Auditable browser automation for repeatable runs and recovery-ready workflows.<br><br>
+      <a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a><br>
+      Local-first browser extension for side-by-side AI comparison in the browser.<br><br>
+      <a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a><br>
+      Local-first academic organizer for Canvas, Gradescope, EdStem, and MyUW.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Research and knowledge systems</strong><br><br>
+      <a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a><br>
+      Turn YouTube, Bilibili, and RSS into traceable digests and searchable knowledge flows.<br><br>
+      <a href="https://github.com/xiaojiou176-open/provenote">provenote</a><br>
+      Source-grounded writing, searchable sources, auditable markdown, and traceable outputs.<br><br>
+      <a href="https://github.com/xiaojiou176-open/docsiphon">docsiphon</a><br>
+      Convert docsites into AI-ready local corpora with preserved paths and audit artifacts.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Product-facing AI tools</strong><br><br>
+      <a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a><br>
+      Generate, apply, and verify production-ready React and shadcn UI from natural-language briefs.<br><br>
+      <a href="https://github.com/xiaojiou176-open/dealwatch">dealwatch</a><br>
+      Cross-store grocery price tracking with compare preview, watch tasks, and alert history.<br><br>
+      <strong>Local-first macOS and recovery tools</strong><br><br>
+      <a href="https://github.com/xiaojiou176-open/apple-notes-snapshot">apple-notes-snapshot</a><br>
+      Local-first Apple Notes backup control room for macOS.<br><br>
+      <a href="https://github.com/xiaojiou176-open/apple-notes-forensics">apple-notes-forensics</a><br>
+      Copy-first Apple Notes recovery toolkit with reviewable outputs.<br><br>
+      <a href="https://github.com/xiaojiou176-open/movi-organizer">movi-organizer</a><br>
+      Local-first AI-assisted media organizer built around manifest-driven workflows.
+    </td>
+  </tr>
+</table>
 
-| Repo | What it does |
-| --- | --- |
-| [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | Governed AI task orchestration with evidence, replay, and operator visibility |
-| [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) | Browser automation control plane for repeatable proof and release-ready quality gates |
+## What makes the portfolio feel coherent
 
-### Auditable browser workflows
+Even when the repos look different on the surface, the same design choices keep showing up:
 
-| Repo | What it does |
-| --- | --- |
-| [prooftrail](https://github.com/xiaojiou176-open/prooftrail) | Auditable browser automation for repeatable runs and recovery-ready workflows |
-| [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) | Local-first browser extension for side-by-side AI comparison in the browser |
-| [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) | Local-first academic organizer for Canvas, Gradescope, EdStem, and MyUW |
-
-### Research and knowledge systems
-
-| Repo | What it does |
-| --- | --- |
-| [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor) | Turn YouTube, Bilibili, and RSS into traceable digests and searchable knowledge flows |
-| [provenote](https://github.com/xiaojiou176-open/provenote) | Traceable writing, searchable sources, auditable markdown, and podcast-ready research output |
-| [docsiphon](https://github.com/xiaojiou176-open/docsiphon) | Convert docsites into AI-ready local corpora with preserved paths and audit artifacts |
-
-### Product-facing AI tools
-
-| Repo | What it does |
-| --- | --- |
-| [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) | Generate, apply, and verify production-ready React and shadcn UI from natural-language briefs |
-| [dealwatch](https://github.com/xiaojiou176-open/dealwatch) | Cross-store grocery price tracking with compare preview, watch tasks, and alert history |
-
-### Local-first macOS and recovery tools
-
-| Repo | What it does |
-| --- | --- |
-| [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot) | Local-first Apple Notes backup control room for macOS |
-| [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics) | Copy-first Apple Notes recovery toolkit with reviewable outputs |
-| [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) | Local-first AI-assisted media organizer built around manifest-driven workflows |
+- visible state over hidden magic
+- reviewable evidence over uninspectable claims
+- recovery paths over brittle one-shot automation
+- hosted-first public collaboration over invisible personal infrastructure
+- products that can be demoed, audited, and actually operated by humans
 
 ## How I like to build
 
