@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero-v5.svg" alt="Terry Yu profile hero" width="100%">
+  <img src="./assets/profile-hero-v6.svg" alt="Terry Yu profile hero" width="100%">
 </p>
 
 <h1 align="center">Terry Yu</h1>
