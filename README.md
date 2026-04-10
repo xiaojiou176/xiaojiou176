@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero-v2.svg" alt="Terry Yu profile hero" width="100%">
+  <img src="./assets/profile-hero-v3.svg" alt="Terry Yu profile hero" width="100%">
 </p>
 
 <h1 align="center">Terry Yu</h1>
@@ -33,7 +33,7 @@ If you only have one minute, here is the simplest reason to keep reading instead
 
 ## Start with the front row
 
-These are the three fastest doors into the center of the portfolio. They are not ranked like medal winners. They are the three clearest ways to understand what Terry is actually building.
+These three flagship doors are the fastest way to understand the center of the portfolio. They are not ranked like medal winners. They are the three clearest ways to understand what Terry is actually building.
 
 <table>
   <tr>
