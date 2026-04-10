@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero-v3.svg" alt="Terry Yu profile hero" width="100%">
+  <img src="./assets/profile-hero-v5.svg" alt="Terry Yu profile hero" width="100%">
 </p>
 
 <h1 align="center">Terry Yu</h1>
@@ -7,111 +7,120 @@
 <p align="center"><strong>Builder of readable, reviewable, evidence-backed AI products.</strong><br>Local-first AI systems for reading, deciding, orchestrating, and proving work.</p>
 
 <p align="center">
-  <img alt="Open product universe" src="https://img.shields.io/badge/open%20product%20universe-16%20public%20products-111827?style=for-the-badge">
-  <img alt="Local first" src="https://img.shields.io/badge/local--first-systems-0f766e?style=for-the-badge">
-  <img alt="Evidence backed" src="https://img.shields.io/badge/evidence--backed-products-1d4ed8?style=for-the-badge">
-  <img alt="Seattle" src="https://img.shields.io/badge/Seattle-WA-7c3aed?style=for-the-badge">
-</p>
-
-<p align="center">
-  <a href="https://github.com/xiaojiou176-open"><strong>See the full universe</strong></a> •
-  <a href="#start-with-the-front-row"><strong>Start with the front row</strong></a> •
-  <a href="#why-this-portfolio-is-worth-your-time"><strong>Why this is worth your time</strong></a> •
-  <a href="#how-to-read-the-universe"><strong>How to read the universe</strong></a> •
+  <a href="https://github.com/xiaojiou176-open"><strong>See the full showroom</strong></a> •
+  <a href="#2--start-with-the-front-row"><strong>Start with the front row</strong></a> •
+  <a href="#4--what-the-pinned-six-prove"><strong>What the pinned six prove</strong></a> •
+  <a href="#6--read-the-universe-in-five-verbs"><strong>Read the universe</strong></a> •
   <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><strong>LinkedIn</strong></a>
 </p>
 
-I build AI products for people who do not just want another model wrapper or another demo. The recurring job is always the same: take messy inputs, black-box workflows, or fragile automation, and turn them into systems people can actually read, review, trust, and recover.
+> **Why this page exists**  
+> If you only have a minute, this page should answer four questions fast: **Who is Terry? What is he building? Why is this worth trusting? Where should I click first?**
 
-## Why this portfolio is worth your time
+| **Readable** | **Reviewable** | **Evidence-backed** | **Boundary-honest** |
+| --- | --- | --- | --- |
+| outputs people can keep | work humans can inspect before action | proof stays close to the claim | no fake magic, no unsafe overreach |
 
-If you only have one minute, here is the simplest reason to keep reading instead of bouncing to another AI repo page:
+## 1. ✨ Why Start Here
 
-- **This is not a pile of unrelated demos.** The repos connect into one product universe with a shared spine: readable outputs, reviewable flows, evidence when systems make claims, and honest boundaries when they cannot safely do more.
-- **The work is not only "AI for AI's sake."** It repeatedly lands in real jobs: reading source streams, deciding under real constraints, supervising browser workflows, moving briefs into working software, and keeping proof close to the result.
-- **The signal is stronger than "I can build AI stuff."** The front page has to show product sense, operator-grade system depth, runtime foundations, and the ability to ship software people can understand without reading a whitepaper first.
+1. **This is not a pile of unrelated AI demos.**  
+   The repos connect into one product universe with a shared spine: readable outputs, visible review paths, proof when systems make claims, and honest boundaries when they cannot safely do more.
 
-## Start with the front row
+2. **The work solves real jobs, not just model-wrapper problems.**  
+   Across the portfolio, the recurring move is the same: turn noisy inputs, scattered institutional surfaces, or fragile automation into something a human can actually understand and trust.
 
-These three flagship doors are the fastest way to understand the center of the portfolio. They are not ranked like medal winners. They are the three clearest ways to understand what Terry is actually building.
+3. **The page is designed to help you choose fast.**  
+   If you want the quickest read, open the three flagship doors. If you want the full map, jump to the showroom. If you want to test breadth, scan the pinned six.
+
+## 2. 🚪 Start With the Front Row
+
+These are not medal winners. They are the three clearest doors into the core story of the portfolio.
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">SourceHarbor</a></strong><br>
       <strong>Read</strong><br><br>
-      <strong>The problem:</strong><br>
-      You can subscribe to many sources, but that still does not give you something truly readable. Most pipelines stop at summaries, feeds, or object lists.<br><br>
-      <strong>The payoff:</strong><br>
-      SourceHarbor turns raw source streams into traceable, readable documents you can actually keep, inspect, and use.
+      <strong>The need</strong><br>
+      More feeds, more links, and more summaries still leave people doing the synthesis by hand.<br><br>
+      <strong>The breakout</strong><br>
+      A reader-first system that rewrites raw source streams into traceable documents worth actually keeping.<br><br>
+      <strong>Why open it first</strong><br>
+      It is the fastest way to understand Terry's "read the world, then make it usable" thesis.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a></strong><br>
       <strong>Decide</strong><br><br>
-      <strong>The problem:</strong><br>
-      In real academic systems, knowing where the information lives is not the same as knowing what to do next. The pages are fragmented, high-constraint, and easy to misread.<br><br>
-      <strong>The payoff:</strong><br>
-      campus-copilot turns scattered academic surfaces into a local-first decision workspace with clear boundaries and a visible next step.
+      <strong>The need</strong><br>
+      In real academic systems, knowing where the data lives still does not tell a student what to do next.<br><br>
+      <strong>The breakout</strong><br>
+      A local-first decision workspace that helps people act inside a high-constraint domain without faking the boundary.<br><br>
+      <strong>Why open it first</strong><br>
+      It proves the portfolio can enter a real, sensitive setting and still stay trustworthy.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
       <strong>Orchestrate</strong><br><br>
-      <strong>The problem:</strong><br>
-      Many AI workflows can run, but cannot be trusted. Request, execution, proof, and replay are usually split apart, so failures become guesswork.<br><br>
-      <strong>The payoff:</strong><br>
-      CortexPilot-public keeps governed execution, evidence, and replay in one control plane so the workflow is not just possible, but reviewable.
+      <strong>The need</strong><br>
+      Many AI workflows can run, but cannot be trusted, because request, execution, proof, and replay are split apart.<br><br>
+      <strong>The breakout</strong><br>
+      A governed control plane that keeps execution, evidence, and replay in the same system instead of scattering them across tools.<br><br>
+      <strong>Why open it first</strong><br>
+      It is the clearest proof that Terry builds operator-grade systems, not just thin AI product shells.
     </td>
   </tr>
 </table>
 
-## Why these three first
+## 3. 🧠 Why These Three Earn the First Click
 
-You do not start here because these are simply the "best three repos." You start here because they are the fastest way to see the three core promises behind the whole universe:
+- **SourceHarbor** proves Terry can turn information overload into something a person would actually read.
+- **campus-copilot** proves Terry can place AI inside a real, high-constraint domain without bluffing the limits.
+- **CortexPilot-public** proves Terry can build the system layer underneath the product, not just the surface.
 
-- **SourceHarbor** proves Terry can turn information overload into something readable.
-- **campus-copilot** proves he can place AI inside a real, high-constraint domain without bluffing the boundaries.
-- **CortexPilot-public** proves he can build the heavy workflow and orchestration layer underneath the products.
+Together they answer three first-screen questions:
 
-Everything else expands one of those promises, deepens the system underneath them, or makes the same philosophy visible in a different surface.
+1. Can he make messy information readable?
+2. Can he make hard decisions easier in the real world?
+3. Can he build governed execution instead of black-box automation?
 
-## What the pinned six tell you
+## 4. 📌 What the Pinned Six Prove
 
-The six pinned repos are not a random popularity list. Together they are the first-screen argument for why Terry is worth taking seriously.
+The pinned six are not a popularity chart. Together they are the first-screen argument for why Terry is worth taking seriously.
 
-| Pinned repo | What signal it adds | Why it matters |
+| Pinned repo | The user problem it points at | Why it belongs on the first screen |
 | --- | --- | --- |
-| **SourceHarbor** | Read the world | Proves the portfolio is not just "AI that talks"; it can turn raw sources into usable outputs. |
-| **campus-copilot** | Real-world decision systems | Proves Terry can build under real constraints, not only in ideal demo environments. |
-| **CortexPilot-public** | Operator-grade orchestration | Proves there is genuine control-plane and workflow depth in the stack. |
-| **Switchyard** | Runtime kernel foundations | Proves the work is not only surface products; there is a reusable access/runtime layer underneath. |
-| **Shopflow** | Consumer-visible product family | Proves Terry can make browser-native product lines that feel like actual products, not only internal systems. |
-| **multi-ai-sidepanel** | Instant hook and clarity | Proves he can also make AI products that a first-time visitor understands immediately and wants to try. |
+| **SourceHarbor** | Raw sources are noisy, fragmented, and hard to truly read. | Shows the universe begins with readable outputs, not feed overload. |
+| **campus-copilot** | Real systems are constrained and confusing; users still need a trustworthy next step. | Shows Terry can build AI for serious domains, not only demos. |
+| **CortexPilot-public** | Workflows often run without proof, replay, or governance. | Shows the control-plane depth underneath the products. |
+| **Switchyard** | AI products keep rebuilding the same runtime and access layer. | Shows there is a reusable kernel underneath the visible products. |
+| **Shopflow** | Consumer browser workflows usually become one-off scripts instead of coherent product lines. | Shows Terry can build product families normal users can actually feel. |
+| **multi-ai-sidepanel** | Comparing models is still awkward, fragmented, and hard to inspect. | Shows Terry can also ship a fast, instantly understandable AI hook that pulls people deeper into the portfolio. |
 
-## Why not just read another AI repo page?
+## 5. 🔥 Why This Is Worth Opening Instead of Another AI Repo Page
 
-Because most AI repo pages ask you to admire a capability. This portfolio is trying to show something harder:
+- **Because the repos are stitched into a product logic.**  
+  This page is not asking you to admire isolated tricks. It is showing how reading, deciding, orchestration, runtime, consumer-facing product work, and proof support one another.
 
-- what concrete user problem each product attacks
-- what kind of work becomes easier after using it
-- what proof, review path, or recovery path exists when things go wrong
-- how apparently different repos still belong to one coherent product universe
+- **Because the products keep the human in the loop where trust matters.**  
+  Review, rollback, replay, and boundary-honest design appear again and again.
 
-If you are evaluating Terry as a builder, the key question is not "can he build AI software?" The page assumes yes. The real question is whether he can repeatedly turn AI into products that are understandable, inspectable, and worth trusting. That is the standard this portfolio is trying to meet.
+- **Because the portfolio is trying to do something harder than “AI that works on a demo.”**  
+  It is trying to make AI systems understandable enough to inspect, trustworthy enough to rely on, and concrete enough to hand to another human.
 
-## How to read the universe
+## 6. 🗺️ Read the Universe in Five Verbs
 
-If you want the fastest map of the portfolio, use these five verbs:
+If you want the shortest mental map, use these five verbs:
 
-| Verb | What it means here | Start with |
+| Verb | If this matters to you | Start here |
 | --- | --- | --- |
-| **Read** | Turn messy sources into readable, traceable products | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Decide** | Build workspaces that help people choose well under real constraints | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Deliver** | Move from brief or intent to an actual working result | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
-| **Prove** | Keep evidence, replay, recovery, and inspection close to the work | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
-| **Connect** | Build the runtime and access foundations that other products can stand on | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) |
+| **Read** | Turn raw inputs into something worth reading and reusing. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
+| **Decide** | Choose well under real constraints instead of drowning in scattered surfaces. | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **Deliver** | Move from intent or brief to a working result humans can review. | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
+| **Prove** | Keep evidence, replay, recovery, and inspection close to the work. | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
+| **Connect** | Build the runtime and access foundation that other products can stand on. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) |
 
-## Where to go next
+## 7. 🔗 Go Deeper
 
-- **See the full showroom**: [xiaojiou176-open](https://github.com/xiaojiou176-open)
-- **Browse the seven product halls**: use the org page as the full atlas
-- **Start with the pinned six**: if you only have a few minutes, they are the best first pass through the portfolio
+- **Want the full map?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
+- **Want the three fastest doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), and [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public).
+- **Want the broader proof of range?** Scan the pinned six before you go deeper into the atlas.
