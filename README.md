@@ -122,3 +122,10 @@ If you want the shortest mental model, use these five verbs:
 - **Want the full portfolio atlas?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
 - **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), and [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public).
 - **Want the browser-facing side first?** Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite), [dealwatch](https://github.com/xiaojiou176-open/dealwatch), or [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel).
+
+## 📬 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/xiaojiou176"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-xiaojiou176-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Terry%20Yu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
