@@ -18,6 +18,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/xiaojiou176-open"><img alt="GitHub showroom" src="https://img.shields.io/badge/GitHub-Showroom-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <img alt="Showroom" src="https://img.shields.io/badge/Showroom-16%20public%20products-0F766E?style=for-the-badge&labelColor=111827">
   <img alt="Local first" src="https://img.shields.io/badge/Local--first-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
   <img alt="Review first" src="https://img.shields.io/badge/Review--first-1D4ED8?style=for-the-badge&labelColor=1D4ED8&color=312E81">
