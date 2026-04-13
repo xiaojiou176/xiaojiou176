@@ -18,31 +18,15 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-signal-strip-v1.svg" alt="Signal strip for Terry Yu profile" style="max-width: 100%; height: auto;">
-</p>
-
-<p align="center">
-  <img alt="Followers" src="https://img.shields.io/github/followers/xiaojiou176?style=for-the-badge&logo=github&label=FOLLOWERS&color=0891b2&labelColor=111827">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xiaojiou176&style=for-the-badge&label=PROFILE+VIEWS&color=7C3AED">
   <img alt="Showroom" src="https://img.shields.io/badge/Showroom-16%20public%20products-0F766E?style=for-the-badge&labelColor=111827">
-</p>
-
-> I keep ending up in the same class of problem: **too much noise, too much risk, and too many systems that ask for trust before they earn it.**  
-> Built in **Seattle, WA (PT)**. Built in public. The product comes first. The proof stays visible.
-
----
-
-## 🛠️ Working Stack
-
-<p align="center">
-  <img alt="Claude" src="https://img.shields.io/badge/Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white">
-  <img alt="Codex" src="https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white">
   <img alt="Local first" src="https://img.shields.io/badge/Local--first-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
   <img alt="Review first" src="https://img.shields.io/badge/Review--first-1D4ED8?style=for-the-badge&labelColor=1D4ED8&color=312E81">
-  <img alt="Built in public" src="https://img.shields.io/badge/Built%20in%20public-0F172A?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Proof visible" src="https://img.shields.io/badge/Proof--visible-0F172A?style=for-the-badge&labelColor=111827&color=334155">
 </p>
 
-<p align="center"><em>I build by thesis, ship with Claude and Codex, and keep proof close to the work.</em></p>
+> Based in **Seattle, WA (PT)**. I build products for messy inputs, real decisions, and workflows that still need a human checkpoint before the result is worth trusting.
+
+---
 
 ## 1. 🚪 Start with the Front Row
 
@@ -52,23 +36,21 @@ If you only open three projects, start here. They are not a podium. They are the
 <tr>
 <td width="33%" valign="top">
 
-### SourceHarbor
+### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Turn raw inputs into reading-grade outputs.**  
 A reading product for the age of information overload. It ingests raw source streams, merges them, and ships traceable documents a human would actually keep.
 
 </td>
 <td width="33%" valign="top">
 
-### OpenCampus  
-`campus-copilot` today  
+### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
 A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.
 
 </td>
 <td width="33%" valign="top">
 
-### OpenVibeCoding  
-`CortexPilot-public` today  
+### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
 A governed control plane for requests, workflows, proof, and replay when the system breaks.
 
