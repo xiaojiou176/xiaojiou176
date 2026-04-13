@@ -37,21 +37,24 @@ If you only open three projects, start here. They are not a podium. They are the
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Turn raw inputs into reading-grade outputs.**  
-A reading product for the age of information overload. It ingests raw source streams, merges them, and ships traceable documents a human would actually keep.
+A reader-first product for the age of information overload. It ingests raw source streams, merges them, and ships traceable documents a human would actually keep.  
+It exists to fix the “I subscribed to everything, but still did not understand anything” problem.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
-A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.
+A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.  
+It exists to fix the “the information is split across portals, but the decision still has to be made safely” problem.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
-A governed control plane for requests, workflows, proof, and replay when the system breaks.
+A governed control plane for requests, workflows, proof, and replay when the system breaks.  
+It exists to fix the “the workflow ran, but nobody can explain, inspect, or recover it” problem.
 
 </td>
 </tr>
@@ -78,27 +81,33 @@ what I actually build, and which painful class of problem each repo is meant to 
 
 1. **SourceHarbor**  
    A reader-first knowledge product that turns noisy source streams into documents people can actually read.  
-   Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.
+   Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.  
+   It proves I care about readable artifacts, not just ingestion scale.
 
 2. **OpenCampus (`campus-copilot`)**  
    A local-first student decision workspace for serious academic planning.  
-   Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.
+   Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.  
+   It proves I can build in a high-constraint domain without pretending the boundary does not exist.
 
 3. **OpenVibeCoding (`CortexPilot-public`)**  
    An operator command tower that turns requests into governed workflows with proof and replay.  
-   Use it when serious AI work needs control, observability, and recovery, not just another prompt box.
+   Use it when serious AI work needs control, observability, and recovery, not just another prompt box.  
+   It proves there is real workflow and control-plane depth underneath the surface products.
 
 4. **Switchyard**  
    A shared runtime and access layer for AI products.  
-   Use it when multiple tools need one reusable BYOK / Web / Login backbone instead of rebuilding auth and runtime over and over.
+   Use it when multiple tools need one reusable BYOK / Web / Login backbone instead of rebuilding auth and runtime over and over.  
+   It proves I also build the runtime and access layer underneath the visible tools.
 
 5. **Shopflow**  
    A browser-native shopping extension family that unifies multi-storefront workflows.  
-   Use it when shopping is no longer a one-site plugin problem, but a repeated browser workflow problem across stores.
+   Use it when shopping is no longer a one-site plugin problem, but a repeated browser workflow problem across stores.  
+   It proves system depth can turn into a browser-native product family real users can feel.
 
 6. **DealWatch (`dealwatch`)**  
    A compare-first shopping decision product that turns messy product pages into an evidence-backed buy / watch / pass call.  
-   Use it when the page is noisy, the marketing is loud, and you still need a clear decision before spending money.
+   Use it when the page is noisy, the marketing is loud, and you still need a clear decision before spending money.  
+   It proves I also build consumer-facing decision products, not only heavy internal systems.
 
 ## 4. 🧬 Shared Technical Spine
 
