@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-hero-v8.svg" alt="Terry Yu profile hero" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-v8-dark.svg">
+    <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-v8.svg" alt="Terry Yu profile hero" style="max-width: 100%; height: auto;">
+  </picture>
 </p>
 
 <h1 align="center">Terry Yu</h1>
@@ -15,11 +18,31 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-signal-strip-v1.svg" alt="Signal strip for Terry Yu profile" width="100%">
+  <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-signal-strip-v1.svg" alt="Signal strip for Terry Yu profile" style="max-width: 100%; height: auto;">
+</p>
+
+<p align="center">
+  <img alt="Followers" src="https://img.shields.io/github/followers/xiaojiou176?style=for-the-badge&logo=github&label=FOLLOWERS&color=0891b2&labelColor=111827">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xiaojiou176&style=for-the-badge&label=PROFILE+VIEWS&color=7C3AED">
+  <img alt="Showroom" src="https://img.shields.io/badge/Showroom-16%20public%20products-0F766E?style=for-the-badge&labelColor=111827">
 </p>
 
 > I keep ending up in the same class of problem: **too much noise, too much risk, and too many systems that ask for trust before they earn it.**  
 > Built in **Seattle, WA (PT)**. Built in public. The product comes first. The proof stays visible.
+
+---
+
+## 🛠️ Working Stack
+
+<p align="center">
+  <img alt="Claude" src="https://img.shields.io/badge/Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white">
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white">
+  <img alt="Local first" src="https://img.shields.io/badge/Local--first-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
+  <img alt="Review first" src="https://img.shields.io/badge/Review--first-1D4ED8?style=for-the-badge&labelColor=1D4ED8&color=312E81">
+  <img alt="Built in public" src="https://img.shields.io/badge/Built%20in%20public-0F172A?style=for-the-badge&logo=github&logoColor=white">
+</p>
+
+<p align="center"><em>I build by thesis, ship with Claude and Codex, and keep proof close to the work.</em></p>
 
 ## 1. 🚪 Start with the Front Row
 
@@ -86,10 +109,19 @@ The pinned six are not a popularity chart. Together they send six different firs
 5. **Shopflow**  
    System depth can turn into a browser-native product family real users can feel.
 
-6. **multi-ai-sidepanel**  
+6. **multi-ai-sidepanel**
    Some products should be instantly understandable and easy to try, not only deep and heavy.
 
-## 4. 🗺️ Follow the Rest of the Map
+## 4. 🧬 Shared Technical Spine
+
+These repos do not stand alone. They keep reusing the same backbone:
+
+- **FastAPI** for service and orchestration surfaces
+- **Next.js** for product-facing web surfaces
+- **Playwright** for browser proof, automation, and inspection
+- **MCP** for truthful tool/runtime access instead of fake magic demos
+
+## 5. 🗺️ Follow the Rest of the Map
 
 If you want the shortest mental model, use these five verbs:
 
@@ -101,7 +133,7 @@ If you want the shortest mental model, use these five verbs:
 | **Prove** | Keep evidence, replay, recovery, and inspection close to the work. | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
 | **Connect** | Build the runtime and access foundation that other products can stand on. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) |
 
-## 5. 🔗 Go Deeper
+## 6. 🔗 Go Deeper
 
 - **Want the full portfolio atlas?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
 - **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), and [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public).
