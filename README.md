@@ -29,11 +29,11 @@
 
 ## 1. 🚪 Start with the Front Row
 
-If you only open three projects, start here. They are not a podium. They are the fastest way to understand what I actually build.
+If you only open four projects, start here. They are not a podium. Together they are the fastest way to understand what I actually build.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Turn raw inputs into reading-grade outputs.**  
@@ -41,7 +41,7 @@ A reader-first product that pulls messy source streams into one place, merges th
 Use it when you already have too many feeds, videos, and notes in your life, but still cannot explain what matters.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
@@ -49,12 +49,20 @@ A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW
 Use it when the information is split across school systems but the decision is real and the boundary matters.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
 An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling scattered chats, scripts, and logs.  
 Use it when the workflow can run, but nobody can explain what happened, replay it cleanly, or recover when it breaks.
+
+</td>
+<td width="25%" valign="top">
+
+### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
+**Give the rest of the product stack one real runtime to stand on.**  
+A shared provider runtime kernel that turns BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the rest of the portfolio.  
+Use it when every new AI tool wants to rebuild the same access layer from scratch and nobody owns the runtime underneath.
 
 </td>
 </tr>
@@ -148,7 +156,7 @@ If you want the shortest mental model, use these five verbs:
 ## 6. 🔗 Go Deeper
 
 - **Want the full portfolio atlas?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
-- **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), and [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public).
+- **Want the strongest first four doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public), and [Switchyard](https://github.com/xiaojiou176-open/Switchyard).
 - **Want the browser-facing side first?** Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite), [DealWatch](https://github.com/xiaojiou176-open/dealwatch), or [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel).
 
 ## 📬 Connect With Me
