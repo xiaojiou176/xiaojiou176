@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-v8-dark.svg">
-    <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-v8.svg" alt="Terry Yu profile hero" style="max-width: 100%; height: auto;">
-  </picture>
+  <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-gemini.svg" alt="Terry Yu profile hero" style="max-width: 100%; height: auto;">
 </p>
 
 <h1 align="center">Terry Yu</h1>
