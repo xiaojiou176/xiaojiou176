@@ -73,25 +73,32 @@ A governed control plane for requests, workflows, proof, and replay when the sys
 
 ## 3. 📌 What the Pinned Six Signal
 
-The pinned six are not a popularity chart. Together they send six different first-screen signals.
+The pinned six are not a popularity chart. Together they answer two first-screen questions:
+what I actually build, and which painful class of problem each repo is meant to fix.
 
 1. **SourceHarbor**  
-   Readable outputs come before dashboard theater.
+   A reader-first knowledge product that turns noisy source streams into documents people can actually read.  
+   Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.
 
 2. **OpenCampus (`campus-copilot`)**  
-   AI can enter a serious domain without pretending the boundary does not exist.
+   A local-first student decision workspace for serious academic planning.  
+   Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.
 
 3. **OpenVibeCoding (`CortexPilot-public`)**  
-   There is real workflow and control-plane depth underneath the surface products.
+   An operator command tower that turns requests into governed workflows with proof and replay.  
+   Use it when serious AI work needs control, observability, and recovery, not just another prompt box.
 
 4. **Switchyard**  
-   I also build the runtime and access layer underneath the visible tools.
+   A shared runtime and access layer for AI products.  
+   Use it when multiple tools need one reusable BYOK / Web / Login backbone instead of rebuilding auth and runtime over and over.
 
 5. **Shopflow**  
-   System depth can turn into a browser-native product family real users can feel.
+   A browser-native shopping extension family that unifies multi-storefront workflows.  
+   Use it when shopping is no longer a one-site plugin problem, but a repeated browser workflow problem across stores.
 
-6. **multi-ai-sidepanel**
-   Some products should be instantly understandable and easy to try, not only deep and heavy.
+6. **DealWatch (`dealwatch`)**  
+   A compare-first shopping decision product that turns messy product pages into an evidence-backed buy / watch / pass call.  
+   Use it when the page is noisy, the marketing is loud, and you still need a clear decision before spending money.
 
 ## 4. 🧬 Shared Technical Spine
 
