@@ -37,24 +37,24 @@ If you only open three projects, start here. They are not a podium. They are the
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Turn raw inputs into reading-grade outputs.**  
-A reader-first product for the age of information overload. It ingests raw source streams, merges them, and ships traceable documents a human would actually keep.  
-It exists to fix the “I subscribed to everything, but still did not understand anything” problem.
+A reader-first product that pulls messy source streams into one place, merges them, and turns them into traceable documents, briefings, and grounded answers a human would actually keep.  
+Use it when you already have too many feeds, videos, and notes in your life, but still cannot explain what matters.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
-A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.  
-It exists to fix the “the information is split across portals, but the decision still has to be made safely” problem.
+A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.  
+Use it when the information is split across school systems but the decision is real and the boundary matters.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
-A governed control plane for requests, workflows, proof, and replay when the system breaks.  
-It exists to fix the “the workflow ran, but nobody can explain, inspect, or recover it” problem.
+An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling scattered chats, scripts, and logs.  
+Use it when the workflow can run, but nobody can explain what happened, replay it cleanly, or recover when it breaks.
 
 </td>
 </tr>
@@ -82,41 +82,56 @@ what I actually build, and which painful class of problem each repo is meant to 
 1. **SourceHarbor**  
    A reader-first knowledge product that turns noisy source streams into documents people can actually read.  
    Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.  
-   It proves I care about readable artifacts, not just ingestion scale.
+   It is here because a lot of my work starts with one stubborn belief: readable artifacts matter more than one more dashboard.
 
-2. **OpenCampus (`campus-copilot`)**  
+2. **OpenCampus**  
    A local-first student decision workspace for serious academic planning.  
    Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.  
-   It proves I can build in a high-constraint domain without pretending the boundary does not exist.
+   It is here because I care about serious domains where the safety boundary is part of the product, not a footnote.
 
-3. **OpenVibeCoding (`CortexPilot-public`)**  
+3. **OpenVibeCoding**  
    An operator command tower that turns requests into governed workflows with proof and replay.  
    Use it when serious AI work needs control, observability, and recovery, not just another prompt box.  
-   It proves there is real workflow and control-plane depth underneath the surface products.
+   It is here because I do not want AI execution that looks slick but becomes unreadable the moment something goes wrong.
 
 4. **Switchyard**  
    A shared runtime and access layer for AI products.  
    Use it when multiple tools need one reusable BYOK / Web / Login backbone instead of rebuilding auth and runtime over and over.  
-   It proves I also build the runtime and access layer underneath the visible tools.
+   It is here because visible products keep collapsing when nobody owns the runtime and access layer underneath them.
 
 5. **Shopflow**  
    A browser-native shopping extension family that unifies multi-storefront workflows.  
    Use it when shopping is no longer a one-site plugin problem, but a repeated browser workflow problem across stores.  
-   It proves system depth can turn into a browser-native product family real users can feel.
+   It is here because system depth should eventually turn into something a normal user can actually feel in the browser.
 
-6. **DealWatch (`dealwatch`)**  
+6. **DealWatch**  
    A compare-first shopping decision product that turns messy product pages into an evidence-backed buy / watch / pass call.  
    Use it when the page is noisy, the marketing is loud, and you still need a clear decision before spending money.  
-   It proves I also build consumer-facing decision products, not only heavy internal systems.
+   It is here because decision products should end with a clearer call, not more page noise.
 
 ## 4. 🧬 Shared Technical Spine
 
-These repos do not stand alone. They keep reusing the same backbone:
+These flagship products look different on the surface, but they keep reusing the same engineering spine underneath:
 
-- **FastAPI** for service and orchestration surfaces
-- **Next.js** for product-facing web surfaces
-- **Playwright** for browser proof, automation, and inspection
-- **MCP** for truthful tool/runtime access instead of fake magic demos
+- **TypeScript monorepos with `pnpm` workspaces**  
+  I keep building products as multi-surface systems, not one-page demos. The web app, extension, desktop shell, packages, and proof tooling usually live in one shared workspace so contracts do not drift apart.
+
+- **Python service layers with `FastAPI`, `Pydantic`, and exact contracts**  
+  When a product needs APIs, orchestration edges, or agent-facing surfaces, I keep coming back to typed Python services that make the boundary explicit instead of leaving it as vague backend glue.
+
+- **Product-facing interfaces built to carry system depth**  
+  I use web surfaces like `Next.js` and browser-first shells when the hard part of the system needs to become something a normal person can actually navigate, inspect, and keep using.
+
+- **Browser proof and repeatable inspection with `Playwright`**  
+  When a workflow touches the browser, I do not want hand-waved demos. I want proof, repeatability, and a way to inspect the exact path that ran.
+
+- **Truthful agent/runtime access through MCP and HTTP surfaces**  
+  I keep exposing the same system truth through MCP, APIs, and repo-local tooling so builders and operators are not forced to work through fake assistant shells.
+
+- **Proof, replay, recovery, and boundary-honest execution**  
+  Across these products, the recurring rule is the same: the run should be inspectable, the dangerous step should stay bounded, and recovery should be designed in instead of added as an apology later.
+
+That is why this portfolio behaves like one product universe with many doors, not many unrelated repos that happen to share an owner.
 
 ## 5. 🗺️ Follow the Rest of the Map
 
@@ -125,16 +140,16 @@ If you want the shortest mental model, use these five verbs:
 | Job | What it means here | Start here |
 | --- | --- | --- |
 | **Read** | Turn raw inputs into something worth reading and reusing. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Decide** | Choose well under real constraints instead of drowning in scattered surfaces. | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Deliver** | Move from intent or brief to a working result humans can review. | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
+| **Decide** | Choose well under real constraints instead of drowning in scattered surfaces. | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [DealWatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **Deliver** | Move from intent or brief to a working result humans can review. | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
 | **Prove** | Keep evidence, replay, recovery, and inspection close to the work. | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
 | **Connect** | Build the runtime and access foundation that other products can stand on. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) |
 
 ## 6. 🔗 Go Deeper
 
 - **Want the full portfolio atlas?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
-- **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), and [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public).
-- **Want the browser-facing side first?** Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite), [dealwatch](https://github.com/xiaojiou176-open/dealwatch), or [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel).
+- **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), and [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public).
+- **Want the browser-facing side first?** Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite), [DealWatch](https://github.com/xiaojiou176-open/dealwatch), or [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel).
 
 ## 📬 Connect With Me
 
