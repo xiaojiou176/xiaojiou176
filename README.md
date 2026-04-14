@@ -4,6 +4,8 @@
 
 <p align="center"><strong>Readable, reviewable AI products for messy inputs and risky work.</strong><br>I build AI systems that help people read better, decide better, orchestrate better, and keep proof close to the action.</p>
 
+<p align="center"><strong>AI Engineer @ Casium</strong> · <strong>University of Washington</strong></p>
+
 <p align="center">
   <a href="https://github.com/xiaojiou176-open"><strong>Open the showroom</strong></a> •
   <a href="#1--start-with-the-front-row"><strong>Start with the front row</strong></a> •
@@ -77,6 +79,12 @@ Use it when every new AI tool wants to rebuild the same access layer from scratc
 
 - **Proof close to the claim.**  
   If something ran, changed, or decided, another human should be able to inspect what happened.
+
+- **Industrial systems under real pressure.**  
+  At Casium, that has meant source-grounded AI workflows, faster end-to-end processing, and high reliability across long-running systems.
+
+- **Defensive AI engineering.**  
+  Earlier work in AI ethics and fairness made me unusually strict about inspectability, hallucination boundaries, and boundary-honest system design.
 
 ## 3. 📌 What the Current Pinned Six Prove
 
