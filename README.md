@@ -4,7 +4,7 @@
 
 <h1 align="center">Terry Yu</h1>
 
-<p align="center"><strong>Readable, reviewable AI products for messy inputs and risky work.</strong><br>I build local-first systems that help people read better, decide better, orchestrate better, and keep proof close to the action.</p>
+<p align="center"><strong>Readable, reviewable AI products for messy inputs and risky work.</strong><br>I build AI systems that help people read better, decide better, orchestrate better, and keep proof close to the action.</p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176-open"><strong>Open the showroom</strong></a> •
@@ -18,7 +18,7 @@
   <a href="https://github.com/xiaojiou176-open"><img alt="GitHub showroom" src="https://img.shields.io/badge/GitHub-Showroom-111827?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <img alt="Showroom" src="https://img.shields.io/badge/Showroom-16%20public%20products-0F766E?style=for-the-badge&labelColor=111827">
-  <img alt="Local first" src="https://img.shields.io/badge/Local--first-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
+  <img alt="System depth" src="https://img.shields.io/badge/System%20depth-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
   <img alt="Review first" src="https://img.shields.io/badge/Review--first-1D4ED8?style=for-the-badge&labelColor=1D4ED8&color=312E81">
   <img alt="Proof visible" src="https://img.shields.io/badge/Proof--visible-0F172A?style=for-the-badge&labelColor=111827&color=334155">
 </p>
@@ -44,8 +44,8 @@ Use it when you already have too many feeds, videos, and notes in your life, but
 <td width="25%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
-**Choose under real constraints without crossing the line.**  
-A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.  
+**Choose under real constraints without crossing the line.**
+An academic decision workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.
 Use it when the information is split across school systems but the decision is real and the boundary matters.
 
 </td>
@@ -92,8 +92,8 @@ what I actually build, and which painful class of problem each repo is meant to 
    Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.  
    It is here because a lot of my work starts with one stubborn belief: readable artifacts matter more than one more dashboard.
 
-2. **OpenCampus**  
-   A local-first student decision workspace for serious academic planning.  
+2. **OpenCampus**
+   A student decision workspace for serious academic planning.
    Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.  
    It is here because I care about serious domains where the safety boundary is part of the product, not a footnote.
 
