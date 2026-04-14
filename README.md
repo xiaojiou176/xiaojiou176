@@ -17,13 +17,11 @@
 <p align="center">
   <a href="https://github.com/xiaojiou176-open"><img alt="GitHub showroom" src="https://img.shields.io/badge/GitHub-Showroom-111827?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <img alt="Showroom" src="https://img.shields.io/badge/Showroom-16%20public%20products-0F766E?style=for-the-badge&labelColor=111827">
-  <img alt="System depth" src="https://img.shields.io/badge/System%20depth-0F766E?style=for-the-badge&labelColor=0F766E&color=115E59">
-  <img alt="Review first" src="https://img.shields.io/badge/Review--first-1D4ED8?style=for-the-badge&labelColor=1D4ED8&color=312E81">
-  <img alt="Proof visible" src="https://img.shields.io/badge/Proof--visible-0F172A?style=for-the-badge&labelColor=111827&color=334155">
+  <img alt="Front row" src="https://img.shields.io/badge/Front%20row-4%20flagship%20doors-0F766E?style=for-the-badge&labelColor=111827">
+  <img alt="Visible atlas" src="https://img.shields.io/badge/Atlas-visible%20product%20map-1D4ED8?style=for-the-badge&labelColor=111827">
 </p>
 
-> Based in **Seattle, WA (PT)**. I build products for messy inputs, real decisions, and workflows that still need a human checkpoint before the result is worth trusting.
+> Based in **Seattle, WA (PT)**. I build products that turn messy inputs, real decisions, and hard-to-trust workflows into work people can actually read, review, and keep moving.
 
 ---
 
@@ -82,40 +80,34 @@ Use it when every new AI tool wants to rebuild the same access layer from scratc
 - **Proof close to the claim.**  
   If something ran, changed, or decided, another human should be able to inspect what happened.
 
-## 3. 📌 What the Pinned Six Signal
+## 3. 📌 What the Current Pinned Six Prove
 
-The pinned six are not a popularity chart. Together they answer two first-screen questions:
-what I actually build, and which painful class of problem each repo is meant to fix.
+The pinned six are not a popularity chart, and they are not identical to the front row.
+They are the current proof set: the six projects that currently make the thesis legible on the live profile.
 
-1. **SourceHarbor**  
-   A reader-first knowledge product that turns noisy source streams into documents people can actually read.  
-   Use it when dashboards, feeds, and subscriptions create too much intake noise and not enough understanding.  
-   It is here because a lot of my work starts with one stubborn belief: readable artifacts matter more than one more dashboard.
+1. **OpenVibeCoding**  
+   This is the clearest proof that I care about governed execution, not just model output.  
+   It earns its place by showing how requests, delegation, proof, replay, and recovery fit into one operator-grade workflow.
 
-2. **OpenCampus**
-   A student decision workspace for serious academic planning.
-   Use it when school systems scatter the information, but the decision still has to be made safely and within real boundaries.  
-   It is here because I care about serious domains where the safety boundary is part of the product, not a footnote.
+2. **Switchyard**  
+   This is the runtime layer underneath visible products.  
+   It earns its place by proving I do not just build polished surfaces; I also build the shared access and routing layer that keeps those surfaces honest.
 
-3. **OpenVibeCoding**  
-   An operator command tower that turns requests into governed workflows with proof and replay.  
-   Use it when serious AI work needs control, observability, and recovery, not just another prompt box.  
-   It is here because I do not want AI execution that looks slick but becomes unreadable the moment something goes wrong.
+3. **OpenCampus**  
+   This is the strongest example of a boundary-honest decision workspace under real constraints.  
+   It earns its place by showing that serious AI products are not only for builders; they can also help people decide safely when the stakes are real.
 
-4. **Switchyard**  
-   A shared runtime and access layer for AI products.  
-   Use it when multiple tools need one reusable BYOK / Web / Login backbone instead of rebuilding auth and runtime over and over.  
-   It is here because visible products keep collapsing when nobody owns the runtime and access layer underneath them.
+4. **DealWatch**  
+   This is the browser-facing proof that evidence-backed decisions can feel immediate and practical.  
+   It earns its place by turning noisy product pages into a clearer buy / watch / pass call instead of one more alert stream.
 
-5. **Shopflow**  
-   A browser-native shopping extension family that unifies multi-storefront workflows.  
-   Use it when shopping is no longer a one-site plugin problem, but a repeated browser workflow problem across stores.  
-   It is here because system depth should eventually turn into something a normal user can actually feel in the browser.
+5. **openui-mcp-studio**  
+   This is the clearest delivery-side proof in the portfolio.  
+   It earns its place by showing how a brief becomes a reviewable workspace change instead of a one-shot generated mockup.
 
-6. **DealWatch**  
-   A compare-first shopping decision product that turns messy product pages into an evidence-backed buy / watch / pass call.  
-   Use it when the page is noisy, the marketing is loud, and you still need a clear decision before spending money.  
-   It is here because decision products should end with a clearer call, not more page noise.
+6. **SourceHarbor**  
+   This is still the clearest reader-first flagship in the portfolio.  
+   It earns its place by showing how raw source streams become reading-grade outputs that a human would actually keep.
 
 ## 4. 🧬 Shared Technical Spine
 
