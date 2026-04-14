@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-gemini.svg" alt="Terry Yu profile hero" style="max-width: 100%; height: auto;">
 </p>
 
-<h1 align="center">Terry Yu</h1>
-
 <p align="center"><strong>Readable, reviewable AI products for messy inputs and risky work.</strong><br>I build AI systems that help people read better, decide better, orchestrate better, and keep proof close to the action.</p>
 
 <p align="center">
