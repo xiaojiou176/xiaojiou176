@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://github.com/xiaojiou176-open"><img alt="GitHub showroom" src="https://img.shields.io/badge/GitHub-Showroom-111827?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/terry-yu-52b6b1252"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <img alt="Front row" src="https://img.shields.io/badge/Front%20row-4%20flagship%20doors-0F766E?style=for-the-badge&labelColor=111827">
+  <img alt="Front row" src="https://img.shields.io/badge/Front%20row-3%20flagship%20doors-0F766E?style=for-the-badge&labelColor=111827">
   <img alt="Visible atlas" src="https://img.shields.io/badge/Atlas-visible%20product%20map-1D4ED8?style=for-the-badge&labelColor=111827">
 </p>
 
@@ -27,7 +27,7 @@
 
 ## 1. 🚪 Start with the Front Row
 
-If you only open four projects, start here. They are not a podium. Together they are the fastest way to understand what I actually build.
+If you only open three projects, start here. They are not a podium. Together they are the fastest way to understand what I actually build.
 
 <table>
 <tr>
@@ -53,14 +53,6 @@ Use it when the information is split across school systems but the decision is r
 **Make execution trustworthy, not just impressive.**  
 An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling scattered chats, scripts, and logs.  
 Use it when the workflow can run, but nobody can explain what happened, replay it cleanly, or recover when it breaks.
-
-</td>
-<td width="25%" valign="top">
-
-### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
-**Give the rest of the product stack one real runtime to stand on.**  
-A shared provider runtime kernel that turns BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the rest of the portfolio.  
-Use it when every new AI tool wants to rebuild the same access layer from scratch and nobody owns the runtime underneath.
 
 </td>
 </tr>
@@ -154,7 +146,8 @@ If you want the shortest mental model, use these five verbs:
 ## 6. 🔗 Go Deeper
 
 - **Want the full portfolio atlas?** Open the [xiaojiou176-open showroom](https://github.com/xiaojiou176-open).
-- **Want the strongest first four doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public), and [Switchyard](https://github.com/xiaojiou176-open/Switchyard).
+- **Want the strongest first three doors?** Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), and [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public).
+- **Want the runtime foundation next?** Open [Switchyard](https://github.com/xiaojiou176-open/Switchyard).
 - **Want the browser-facing side first?** Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite), [DealWatch](https://github.com/xiaojiou176-open/dealwatch), or [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel).
 
 ## 📬 Connect With Me

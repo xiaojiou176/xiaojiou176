@@ -1,78 +1,103 @@
-<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Terry Yu GitHub author-page hero</title>
-  <desc id="desc">Author-page hero for Terry Yu that keeps a light, GitHub-native systems feel while showing how messy inputs become readable, reviewable work.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="auto">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="640" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FCFBF7"/>
-      <stop offset="1" stop-color="#F3EEE5"/>
-    </linearGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#E8E0D2" stroke-width="1"/>
+    <style>
+      /* 自适应暗色模式材质 (Adaptive Material) */
+      :root {
+        --text-primary: #1f2328;
+        --text-secondary: #656d76;
+        --border-color: #d0d7de;
+        --accent: #0969da;
+        --bg-card: #ffffff;
+        --trace-color: rgba(9, 105, 218, 0.4);
+        --grid-color: rgba(31, 35, 40, 0.04);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text-primary: #e6edf3;
+          --text-secondary: #7d8590;
+          --border-color: #30363d;
+          --accent: #58a6ff;
+          --bg-card: #0d1117;
+          --trace-color: rgba(88, 166, 255, 0.3);
+          --grid-color: rgba(230, 237, 243, 0.04);
+        }
+      }
+      
+      /* 字体与排版约束 */
+      .text-primary { fill: var(--text-primary); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .text-secondary { fill: var(--text-secondary); font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 11px; }
+      .card-bg { fill: var(--bg-card); stroke: var(--border-color); stroke-width: 1; rx: 6; }
+      .accent-line { stroke: var(--accent); stroke-width: 1.5; fill: none; }
+      .trace-text { fill: var(--trace-color); font-family: SFMono-Regular, Consolas, monospace; font-size: 12px; font-weight: 600; }
+
+      /* 心电图式非线性动力学 (Non-linear Dynamics) */
+      @keyframes ekg-pulse {
+        0% { stroke-dashoffset: 600; opacity: 0; }
+        10% { opacity: 1; }
+        35% { stroke-dashoffset: 300; animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1); }
+        55% { stroke-dashoffset: 300; /* 系统处理的有意识停顿 */ }
+        85% { stroke-dashoffset: 0; opacity: 1; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); }
+        100% { stroke-dashoffset: 0; opacity: 0; }
+      }
+
+      /* 日志碎片滚动 (Physical Presence) */
+      @keyframes log-scroll {
+        0% { transform: translateY(0); opacity: 0; }
+        15% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { transform: translateY(-30px); opacity: 0; }
+      }
+
+      /* 动画绑定 */
+      .pulse-line {
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        animation: ekg-pulse 4s infinite;
+      }
+      .log-stream { animation: log-scroll 3s cubic-bezier(0.1, 0.9, 0.2, 1) infinite; }
+      .log-stream-delay { animation: log-scroll 3s cubic-bezier(0.1, 0.9, 0.2, 1) 1.5s infinite; opacity: 0; }
+    </style>
+
+    /* 背景微型网格 (Control Plane 质感) */
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--grid-color)" stroke-width="1" />
     </pattern>
-    <linearGradient id="route" x1="760" y1="0" x2="1460" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F766E"/>
-      <stop offset="0.35" stop-color="#0891B2"/>
-      <stop offset="0.68" stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#3730A3"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.06"/>
-    </filter>
   </defs>
 
-  <rect x="20" y="20" width="1560" height="600" rx="36" fill="url(#bg)"/>
-  <rect x="20" y="20" width="1560" height="600" rx="36" stroke="#C9C0B3" stroke-width="1.5"/>
-  <rect x="20" y="20" width="1560" height="600" rx="36" fill="url(#grid)" opacity="0.55"/>
+  <rect width="100%" height="100%" fill="url(#grid)" />
 
-  <circle cx="1308" cy="162" r="72" fill="#C4B5FD" fill-opacity="0.10"/>
-  <circle cx="1420" cy="232" r="70" fill="#BFDBFE" fill-opacity="0.12"/>
-  <circle cx="1218" cy="372" r="86" fill="#99F6E4" fill-opacity="0.10"/>
-
-  <rect x="88" y="76" width="176" height="34" rx="17" fill="#111827"/>
-  <text x="114" y="98" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">AUTHOR PAGE</text>
-
-  <text x="88" y="182" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Terry Yu</text>
-  <text x="88" y="252" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">Readable systems</text>
-  <text x="88" y="308" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">for real decisions</text>
-
-  <text x="90" y="382" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Messy inputs become work people can actually read, review, and trust.</text>
-  <text x="90" y="424" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1.7">SEATTLE, WA (PT)</text>
-  <text x="90" y="476" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Start with the thesis here. Follow the product universe next.</text>
-
-  <text x="844" y="110" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.6">WORKFLOW THESIS</text>
-
-  <path d="M828 188 C900 188, 962 188, 1036 188" stroke="url(#route)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="10 12"/>
-  <path d="M1036 188 C1120 188, 1160 188, 1238 236" stroke="url(#route)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="10 12"/>
-  <path d="M1238 236 C1290 276, 1332 318, 1424 318" stroke="url(#route)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="10 12"/>
-  <path d="M1238 236 C1300 220, 1372 190, 1424 162" stroke="url(#route)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="10 12"/>
-
-  <g filter="url(#shadow)">
-    <rect x="812" y="154" width="214" height="66" rx="22" fill="#FFFFFF" fill-opacity="0.72" stroke="#C9C0B3" stroke-width="1.5"/>
-    <rect x="1036" y="154" width="194" height="66" rx="22" fill="#FFFFFF" fill-opacity="0.78" stroke="#C9C0B3" stroke-width="1.5"/>
-    <rect x="1238" y="142" width="170" height="66" rx="22" fill="#FFFFFF" fill-opacity="0.82" stroke="#C9C0B3" stroke-width="1.5"/>
-    <rect x="1238" y="286" width="170" height="66" rx="22" fill="#FFFFFF" fill-opacity="0.82" stroke="#C9C0B3" stroke-width="1.5"/>
-    <rect x="1420" y="142" width="120" height="210" rx="28" fill="#FFFFFF" fill-opacity="0.85" stroke="#C9C0B3" stroke-width="1.5"/>
+  <g transform="translate(50, 215)">
+    <text class="trace-text log-stream">[TRACE_ID: 0x9A4F] POST /v1/orchestrate -&gt; 200 OK</text>
+    <text class="trace-text log-stream-delay">[SYSTEM_LOG] Verifying proof... L0 control plane synced.</text>
   </g>
 
-  <circle cx="842" cy="178" r="6" fill="#0F766E"/>
-  <circle cx="1064" cy="178" r="6" fill="#0891B2"/>
-  <circle cx="1266" cy="166" r="6" fill="#2563EB"/>
-  <circle cx="1266" cy="310" r="6" fill="#2563EB"/>
-  <circle cx="1450" cy="170" r="6" fill="#3730A3"/>
-  <circle cx="1450" cy="318" r="6" fill="#3730A3"/>
+  <path d="M 170 115 L 630 115" class="accent-line" opacity="0.2" />
+  <path d="M 170 115 L 630 115" class="accent-line pulse-line" />
 
-  <text x="858" y="176" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">MESSY INPUTS</text>
-  <text x="858" y="198" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">source streams, notes, tasks</text>
+  <g transform="translate(90, 65)">
+    <rect width="170" height="100" class="card-bg" />
+    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
+    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">SourceHarbor</text>
+    <text x="20" y="55" class="text-secondary">■ READ_LANE</text>
+    <text x="20" y="72" class="text-secondary">Knowledge Artifacts</text>
+    <text x="20" y="90" class="text-secondary"># Not generic RSS</text>
+  </g>
 
-  <text x="1080" y="176" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">READ</text>
-  <text x="1080" y="198" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">turn noise into artifacts</text>
+  <g transform="translate(315, 65)">
+    <rect width="170" height="100" class="card-bg" />
+    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
+    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">OpenCampus</text>
+    <text x="20" y="55" class="text-secondary">■ DECIDE_LANE</text>
+    <text x="20" y="72" class="text-secondary">High-Constraint Logic</text>
+    <text x="20" y="90" class="text-secondary"># Review-first</text>
+  </g>
 
-  <text x="1282" y="164" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">DECIDE</text>
-  <text x="1282" y="186" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">see what matters first</text>
-
-  <text x="1282" y="308" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">EXECUTE</text>
-  <text x="1282" y="330" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">move with review in place</text>
-
-  <text x="1468" y="188" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" transform="rotate(90 1468 188)">PROVE</text>
-  <text x="1498" y="178" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" transform="rotate(90 1498 178)">keep evidence close to the claim</text>
+  <g transform="translate(540, 65)">
+    <rect width="170" height="100" class="card-bg" />
+    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
+    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">OpenVibeCoding</text>
+    <text x="20" y="55" class="text-secondary">■ ORCHESTRATE_LANE</text>
+    <text x="20" y="72" class="text-secondary">L0 Control Plane</text>
+    <text x="20" y="90" class="text-secondary"># Governed execution</text>
+  </g>
 </svg>
