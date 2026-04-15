@@ -33,34 +33,46 @@ If you only open four projects, start here. They are not a podium. Together they
 <tr>
 <td width="25%" valign="top">
 
-### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
-**Turn raw inputs into reading-grade outputs.**  
-A reader-first product that pulls messy source streams into one place, merges them, and turns them into traceable documents, briefings, and grounded answers a human would actually keep.  
-Use it when you already have too many feeds, videos, and notes in your life, but still cannot explain what matters.
+### 📚 [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
+**Turn raw inputs into reading-grade outputs.**
+<ul>
+  <li><strong>Need:</strong> too many feeds, videos, and notes, but no clear picture of what actually matters</li>
+  <li><strong>What it is:</strong> a reader-first product that turns messy source streams into traceable documents, briefings, and grounded answers</li>
+  <li><strong>Use it when:</strong> you need something a human would actually keep, not one more dashboard</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
+### 🎓 [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**
-An academic decision workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.
-Use it when the information is split across school systems but the decision is real and the boundary matters.
+<ul>
+  <li><strong>Need:</strong> campus work is scattered across school systems, but the decision is still yours to make</li>
+  <li><strong>What it is:</strong> an academic decision workspace that unifies Canvas, Gradescope, EdStem, and MyUW</li>
+  <li><strong>Use it when:</strong> you want to see what changed, what is still open, and what matters first</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
-**Make execution trustworthy, not just impressive.**  
-An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling scattered chats, scripts, and logs.  
-Use it when the workflow can run, but nobody can explain what happened, replay it cleanly, or recover when it breaks.
+### 🧭 [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
+**Make execution trustworthy, not just impressive.**
+<ul>
+  <li><strong>Need:</strong> long-running AI work breaks when teams rely on scattered chats, scripts, and after-the-fact logs</li>
+  <li><strong>What it is:</strong> an open command tower for planning, delegation, tracking, replay, and proof</li>
+  <li><strong>Use it when:</strong> the workflow can run, but nobody can explain it cleanly or recover when it fails</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
-**Give the rest of the product stack one real runtime to stand on.**  
-A shared provider runtime kernel that turns BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the rest of the portfolio.  
-Use it when every new AI tool wants to rebuild the same access layer from scratch and nobody owns the runtime underneath.
+### 🔌 [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
+**Give the rest of the product stack one real runtime to stand on.**
+<ul>
+  <li><strong>Need:</strong> every new AI tool keeps rebuilding the same access, routing, and diagnostics layer from scratch</li>
+  <li><strong>What it is:</strong> a shared provider runtime kernel for BYOK, Web/Login access, routing, and diagnostics</li>
+  <li><strong>Use it when:</strong> you want multiple AI products to stand on one reusable runtime instead of one-off seams</li>
+</ul>
 
 </td>
 </tr>
@@ -91,27 +103,27 @@ Use it when every new AI tool wants to rebuild the same access layer from scratc
 The pinned six are not a popularity chart, and they are not identical to the front row.
 They are the current proof set: the six projects that currently make the thesis legible on the live profile.
 
-1. **OpenVibeCoding**  
+1. **[OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)**  
    This is the clearest proof that I care about governed execution, not just model output.  
    It earns its place by showing how requests, delegation, proof, replay, and recovery fit into one operator-grade workflow.
 
-2. **Switchyard**  
+2. **[Switchyard](https://github.com/xiaojiou176-open/Switchyard)**  
    This is the runtime layer underneath visible products.  
    It earns its place by proving I do not just build polished surfaces; I also build the shared access and routing layer that keeps those surfaces honest.
 
-3. **OpenCampus**  
+3. **[OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)**  
    This is the strongest example of a boundary-honest decision workspace under real constraints.  
    It earns its place by showing that serious AI products are not only for builders; they can also help people decide safely when the stakes are real.
 
-4. **DealWatch**  
+4. **[DealWatch](https://github.com/xiaojiou176-open/dealwatch)**  
    This is the browser-facing proof that evidence-backed decisions can feel immediate and practical.  
    It earns its place by turning noisy product pages into a clearer buy / watch / pass call instead of one more alert stream.
 
-5. **openui-mcp-studio**  
+5. **[openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio)**  
    This is the clearest delivery-side proof in the portfolio.  
    It earns its place by showing how a brief becomes a reviewable workspace change instead of a one-shot generated mockup.
 
-6. **SourceHarbor**  
+6. **[SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)**  
    This is still the clearest reader-first flagship in the portfolio.  
    It earns its place by showing how raw source streams become reading-grade outputs that a human would actually keep.
 
