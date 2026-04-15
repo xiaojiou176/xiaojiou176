@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/xiaojiou176/xiaojiou176/main/assets/profile-hero-gemini.svg" alt="Terry Yu profile hero" style="max-width: 100%; height: auto;">
 </p>
 
-<p align="center"><strong>Readable, reviewable AI products for messy inputs and risky work.</strong><br>I build AI systems that help people read better, decide better, orchestrate better, and keep proof close to the action.</p>
+<p align="center"><strong>Product-minded AI systems for real needs hiding inside messy workflows.</strong><br>I find overlooked workflow pain, clarify the real need underneath it, and turn it into trustworthy products for reading, decision-making, execution, and proof.</p>
 
 <p align="center"><strong>AI Engineer @ Casium</strong> · <strong>University of Washington</strong></p>
 
@@ -21,7 +21,7 @@
   <img alt="Visible atlas" src="https://img.shields.io/badge/Atlas-visible%20product%20map-1D4ED8?style=for-the-badge&labelColor=111827">
 </p>
 
-> Based in **Seattle, WA (PT)**. I build products that turn messy inputs, real decisions, and hard-to-trust workflows into work people can actually read, review, and keep moving.
+> Based in **Seattle, WA (PT)**. I build AI product systems for people stuck in noisy inputs, real decisions, and workflows that need inspection before trust. The pattern is always the same: find the underestimated need, then turn it into something people can actually use, review, and rely on.
 
 ---
 
@@ -66,25 +66,25 @@ Use it when every new AI tool wants to rebuild the same access layer from scratc
 </tr>
 </table>
 
-## 2. 🧠 What I Actually Build
+## 2. 🧠 How I Turn Needs Into Products
 
-- **Readable systems.**  
-  If the output is not something a person would actually keep, the workflow is unfinished.
+- **Overlooked needs inside messy workflows.**  
+  I pay attention to the part most tools leave unresolved: the real need hiding underneath noise, fragmentation, and repetitive manual work.
 
-- **Decision workspaces.**  
-  I care about systems that help someone choose the next move when the surfaces are messy and the constraints are real.
+- **Products, not just features.**  
+  I do not just assemble technical capabilities. I try to turn recurring pain into systems people can actually adopt, trust, and return to.
 
-- **Review-first execution.**  
-  I do not trust systems that hide the dangerous step behind a smooth demo.
+- **Decision clarity under real constraints.**  
+  Many of my products start where the stakes are real and the surfaces are confusing. I care about helping people make better calls, not just see more data.
 
-- **Proof close to the claim.**  
-  If something ran, changed, or decided, another human should be able to inspect what happened.
+- **Execution that can survive inspection.**  
+  If a workflow matters, it should be reviewable, explainable, and recoverable. I do not like systems that ask for trust before they earn it.
 
 - **Industrial systems under real pressure.**  
-  At Casium, that has meant source-grounded AI workflows, faster end-to-end processing, and high reliability across long-running systems.
+  At Casium, that has meant building source-grounded AI workflows and reliable long-running systems where speed matters, but trust still matters more.
 
-- **Defensive AI engineering.**  
-  Earlier work in AI ethics and fairness made me unusually strict about inspectability, hallucination boundaries, and boundary-honest system design.
+- **Boundary-honest AI.**  
+  My background in AI ethics and fairness keeps pushing me toward systems that are powerful without becoming sloppy, opaque, or overclaimed.
 
 ## 3. 📌 What the Current Pinned Six Prove
 
